@@ -1,0 +1,30 @@
+2024-01-10 18:54:33,145 [INFO] from play.api.http.EnabledFilters in play-dev-mode-pekko.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+
+2024-01-10 18:54:33,241 [INFO] from play.api.Play in play-dev-mode-pekko.actor.default-dispatcher-4 - Application started (Dev) (no global state)
+2024-01-10 18:54:33,372 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-pekko.actor.default-dispatcher-6 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2024-01-10 18:54:33,373 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-pekko.actor.default-dispatcher-6 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2024-01-10 18:54:33,505 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-pekko.actor.default-dispatcher-6 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2024-01-10 18:54:33,506 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-pekko.actor.default-dispatcher-6 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2024-01-10 18:55:28,240 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-pekko.actor.default-dispatcher-6 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2024-01-10 18:55:28,240 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-pekko.actor.default-dispatcher-6 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2024-01-10 18:56:09,206 [INFO] from play.api.http.HttpErrorHandlerExceptions in play-dev-mode-pekko.actor.default-dispatcher-11 - Registering exception handler: guice-provision-exception-handler
+2024-01-10 18:56:09,300 [INFO] from play.api.http.EnabledFilters in play-dev-mode-pekko.actor.default-dispatcher-11 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+
+2024-01-10 18:56:09,308 [INFO] from play.api.Play in play-dev-mode-pekko.actor.default-dispatcher-11 - Application started (Dev) (no global state)
+2024-01-10 18:56:09,316 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-pekko.actor.default-dispatcher-6 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2024-01-10 18:56:09,317 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-pekko.actor.default-dispatcher-6 - The JWT signature in the cookie does not match the locally computed signature with the server. This usually indicates the browser has a leftover cookie from another Play application, so clearing cookies may resolve this error message.
+2024-01-10 18:58:53,672 [INFO] from play.api.internal.libs.concurrent.CoordinatedShutdownSupport in pool-5-thread-1 - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 40000 milliseconds timeout
+2024-01-10 18:58:53,672 [INFO] from play.core.server.PekkoHttpServer in pool-5-thread-1 - Stopping Pekko HTTP server...
+2024-01-10 18:58:53,674 [INFO] from play.core.server.PekkoHttpServer in play-dev-mode-pekko.actor.internal-dispatcher-3 - Unbinding /[0:0:0:0:0:0:0:0]:9000
+2024-01-10 18:58:53,693 [INFO] from play.core.server.PekkoHttpServer in play-dev-mode-pekko.actor.internal-dispatcher-3 - Terminating server binding for /[0:0:0:0:0:0:0:0]:9000
+2024-01-10 18:58:53,708 [INFO] from play.core.server.PekkoHttpServer in play-dev-mode-pekko.actor.internal-dispatcher-3 - Running provided shutdown stop hooks
